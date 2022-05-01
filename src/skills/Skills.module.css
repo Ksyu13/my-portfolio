@@ -10,8 +10,13 @@
 }
 
 .title {
+    background-color: rgb(252, 232, 232);
 }
 
 .skills {
     border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

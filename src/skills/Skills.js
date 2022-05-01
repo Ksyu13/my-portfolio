@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css';
+import Skill from './skill/Skill';
 
 function Skills() {
     return (
@@ -8,10 +9,10 @@ function Skills() {
             <div className={`${styleContainer.conteyner} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
-                    <div className={style.text}>
-                        <span>Hi There</span>
-                        <p>Frontend Developer</p>
-                    </div>
+                    <Skill title={"HTML"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
+                    <Skill title={"CSS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
+                    <Skill title={"Js"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
+                    <Skill title={"React"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
                 </div>
             </div>
         </div>
