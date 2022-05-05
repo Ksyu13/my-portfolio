@@ -8,6 +8,7 @@ function Skills() {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.conteyner} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
+                <p>Check out my latest web software development portfolio projects.</p>
                 <div className={style.skills}>
                     <Skill title={"HTML"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
                     <Skill title={"CSS"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>

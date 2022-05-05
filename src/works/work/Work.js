@@ -8,10 +8,10 @@ function Work(props) {
             <div className={style.image}>
                 <button>Whatch</button>
             </div>
-                <h3>{props.title}</h3>
-                <span className={style.description}>
-                    {props.description}
-                </span>            
+            <h3>{props.title}</h3>
+            <span className={style.description}>
+                {props.description}
+            </span>            
         </div>
 
     );

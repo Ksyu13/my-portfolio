@@ -1,9 +1,9 @@
-.skillsBlock {
-    min-height: 100vh;
+.offerBlock {
+    height: auto;
     background-color: rgb(209, 255, 140);
 }
 
-.skillsContainer {
+.offerContainer {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
@@ -13,10 +13,17 @@
     background-color: rgb(252, 232, 232);
 }
 
-.skills {
+.offer {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+button {
+    color: #fff;
+    background: #101010;
+    border: 3px solid #fff;
+    box-shadow: 0 10px 15px 0 rgb(249 0 77 / 10%);
+    opacity: 0.8;
 }
