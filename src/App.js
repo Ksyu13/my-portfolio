@@ -1,5 +1,6 @@
 
 import './App.css';
+import Contact from './contact/Contact';
 import Header from './header/Header';
 import Main from './main/Main';
 import Offer from './offer/Offer';
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Works/>
       <Offer/>
+      <Contact/>
     </div>
   );
 }
