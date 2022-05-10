@@ -1,0 +1,26 @@
+.footerBlock {
+    height: auto;
+
+    background-color: rgb(255, 140, 140);
+}
+
+.footerContainer {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    border: 1px solid;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(182, 237, 253);
+    margin: 5px;
+}

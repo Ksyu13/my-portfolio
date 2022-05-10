@@ -6,7 +6,7 @@ import Skill from './skill/Skill';
 function Skills() {
     return (
         <div className={style.skillsBlock}>
-            <div className={`${styleContainer.conteyner} ${style.skillsContainer}`}>
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <p>Check out my latest web software development portfolio projects.</p>
                 <div className={style.skills}>

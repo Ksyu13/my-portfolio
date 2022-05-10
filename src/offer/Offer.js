@@ -6,7 +6,7 @@ import styleContainer from '../common/styles/Container.module.css';
 function Offer() {
     return (
         <div className={style.offerBlock}>
-            <div className={`${styleContainer.conteyner} ${style.offerContainer}`}>
+            <div className={`${styleContainer.container} ${style.offerContainer}`}>
                 <h2 className={style.title}>Let's get to work</h2>
                 <p>Open for your suggestions. I consider full-time offers, including remote work.</p>
                 <button>Hire me</button>

@@ -6,7 +6,7 @@ import Work from './work/Work';
 function Works() {
     return (
         <div className={style.worksBlock}>
-            <div className={`${styleContainer.conteyner} ${style.worksContainer}`}>
+            <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 
                 <h2 className={style.title}>My Works</h2>
                 <p>Check out my latest web software development portfolio projects.</p>
