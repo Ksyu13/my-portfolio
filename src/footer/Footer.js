@@ -8,11 +8,11 @@ function Footer() {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <div className={style.footer}>
-                    <div className={style.icon}></div>
-                    <div className={style.icon}></div>
-                    <div className={style.icon}></div>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
                 </div>
-                <p>© 2022. All rights reserved by Kseniya Bliznyuk</p>
+                <span className={style.copyright}>© 2022. All rights reserved by Kseniya Bliznyuk</span>
             </div>
         </div>
     );

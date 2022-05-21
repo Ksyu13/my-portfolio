@@ -1,16 +1,25 @@
 .work {
-    width: 250px;
-    background-color: rgb(253, 243, 152);
+    width: 450px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* margin-top: 50px; */
+    padding: 35px 50px;
+    margin: 30px 0;
+
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    /* height: 100%; */
+
+    /* position: relative; */
+    text-align: left;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
 }
 
 .image {
     /* width: 250px; */
-    height: 250px;
+    height: 300px;
     background-color: rgb(127, 210, 235);
     display: flex;
     justify-content: center;
@@ -20,11 +29,34 @@
     background-size: cover;
     background-position: 50%;
     width: 100%;
+    margin-bottom: 29px;
 }
-button {
+.viewButton {
     color: #fff;
     background: #101010;
     border: 3px solid #fff;
+    padding: 10px 20px;
     box-shadow: 0 10px 15px 0 rgb(249 0 77 / 10%);
     opacity: 0.8;
+    text-decoration: none;
+}
+.projectTitle {
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+    word-break: break-word;
+    margin: 0 0 20px;
+    text-align: left;
+}
+.description {
+    color: #c4cfde;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    transition: 0.4s;
+    margin: 0 0 40px;
 }

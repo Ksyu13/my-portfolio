@@ -1,6 +1,6 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: rgb(197, 241, 255);
+    /* background-color: #121415; */
 }
 
 .worksContainer {
@@ -12,7 +12,17 @@
     border: 1px solid;
 }
 .title {
-    background-color: rgb(244, 255, 145);
+    font-family: "Montserrat", sans-serif;
+    color: #c4cfde;
+    margin: 0 0 30px;
+    font-weight: 700;
+    word-break: break-word;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.title h2 {
+    margin: 0;
 }
 
 .works {
@@ -22,3 +32,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1129px) {
+    .works {
+        justify-content: center;
+    }
+} ;

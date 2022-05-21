@@ -1,6 +1,6 @@
 .contactBlock {
     height: auto;
-    background-color: rgb(248, 225, 245);
+    /* background-color: rgb(248, 225, 245); */
 }
 
 .contactContainer {
@@ -19,8 +19,8 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    max-width: 500px;
-    width: 100%;
+    /* max-width: 500px; */
+    width: 50%;
     display: flex;
     border: 1px solid;
 }
@@ -32,6 +32,7 @@
     flex-direction: column;
     width: 100%;
     background: 0 0;
+    margin: 30px 0;
 }
 
 .contactForm input {
@@ -64,7 +65,7 @@
     background: 0 0;
 }
 
-.contactForm button {
+.submitButton {
     box-shadow: 0 10px 15px 0 rgb(249 0 77 / 10%);
     opacity: 0.8;
     border: 3px solid #f9004d;

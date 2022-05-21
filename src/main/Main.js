@@ -8,8 +8,11 @@ function Main() {
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
-                    <h1>I am Kseniya Bliznyuk</h1>
-                    <p>Frontend Developer</p>
+                    <h1 className={style.titleTexts}>I am 
+                        <span className={style.nameText}> Kseniya Bliznyuk</span>
+                        <br />
+                        <span className={style.animatedTexts}>Frontend Developer</span>
+                    </h1>
                 </div>
                 <div className={style.photo}></div>
             </div>

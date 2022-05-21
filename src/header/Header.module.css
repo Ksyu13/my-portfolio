@@ -1,7 +1,8 @@
 .header {
-    height: 80px;
-    background: rgb(220, 251, 255);
+    height: 90px;
+    /* background: rgb(220, 251, 255); */
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }

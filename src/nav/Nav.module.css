@@ -1,6 +1,21 @@
 .nav {
     border: 1px solid;
-    width: 300px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav a {
+    /* margin: 10px 5px; */
+    margin: 0.5rem 1rem;
+    color: var(--color-lightn);
+    display: inline-block;
+    font-family: var(--font-secondary);
+    font-size: 13px;
+    font-weight: var(--s-regular);
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.3s;
+    transition: var(--transition);
 }

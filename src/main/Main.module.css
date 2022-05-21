@@ -1,11 +1,29 @@
 .mainBlock {
-    height: 100vh;
-    background-color: bisque;
+    min-height: 100vh;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
 }
 
 .text {
-    width: 300px;
+    width: 700px;
     background-color: rgb(218, 218, 218);
+}
+
+.titleTexts {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 22px;
+    word-break: break-word;
+}
+.nameText {
+    color: #ff014f;
+}
+.animatedTexts {
+    color: #fff;
 }
 
 .photo {
