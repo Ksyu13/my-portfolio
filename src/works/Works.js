@@ -12,10 +12,9 @@ function Works() {
                 <p>Check out my latest web software development portfolio projects.</p>
                 
                 <div className={style.works}>
-                    <Work title={"Сайт 1"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis reiciendis dicta iusto explicabo perferendis reprehenderit aspernatur repellat blanditiis quis, quibusdam cupiditate accusamus architecto nam incidunt, repellendus magni! Ratione, itaque!Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
+                    <Work title={"Сайт 1"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis reiciendis dicta iusto explicabo perferendis reprehenderit aspernatur repellat blanditiis quis, quibusdam cupiditate accusamus architecto nam incidunt, repellendus magni! Ratione, itaque!Lorem ipsum dolor sit amet consectetur adipisicing elit."} path={"http://ksyu13.github.io/to-do-list/"}/> 
                     <Work title={"Сайт 2"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
-                    <Work title={"Сайт 3"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis reiciendis dicta iusto explicabo perferendis reprehenderit aspernatur repellat blanditiis quis, quibusdam cupiditate accusamus architecto nam incidunt, repellendus magni! Ratione, itaque!"}/>
-                </div>
+                    </div>
             </div>
         </div>
     );

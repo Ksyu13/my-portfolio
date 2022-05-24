@@ -7,8 +7,8 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                    <span>Hi There</span>
-                    <h1 className={style.titleTexts}>I am 
+                    <span className={style.subtitle}>Hi There</span>
+                    <h1 className={style.titleTexts}>I'm 
                         <span className={style.nameText}> Kseniya Bliznyuk</span>
                         <br />
                         <span className={style.animatedTexts}>Frontend Developer</span>
