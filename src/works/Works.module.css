@@ -1,6 +1,5 @@
 .worksBlock {
     min-height: 100vh;
-    /* background-color: #121415; */
 }
 
 .worksContainer {
@@ -8,32 +7,15 @@
     align-items: center;
     flex-direction: column;
 }
-.titleBlock {
-    border: 1px solid;
-}
-.title {
-    font-family: "Montserrat", sans-serif;
-    color: #c4cfde;
-    margin: 0 0 30px;
-    font-weight: 700;
-    word-break: break-word;
-    font-size: 38px;
-    line-height: 50px;
-}
-
-.title h2 {
-    margin: 0;
-}
 
 .works {
-    /* border: 1px solid; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1129px) {
+@media screen and (max-width: 1324px) {
     .works {
         justify-content: center;
     }

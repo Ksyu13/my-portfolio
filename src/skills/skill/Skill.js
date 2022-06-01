@@ -5,9 +5,9 @@ import style from './Skill.module.css';
 function Skill(props) {
     return (
         <div className={style.skill}>
-            <div className={style.icon}>
-                
-            </div>
+            <span className={style.icon}>
+                {props.icon}
+            </span>
             <h3>{props.title}</h3>
             <span className={style.description}>
                 {props.description}

@@ -1,21 +1,30 @@
 .nav {
-    /* border: 1px solid; */
     width: 450px;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
+    transition: 0.4s;
+    height: 100%;
+    align-items: center;
+}
+.nav:hover a{
+    opacity: 0.5;
 }
 
 .nav a {
-    /* margin: 10px 5px; */
     margin: 0.5rem 1rem;
-    color: var(--color-lightn);
+    color: #c4cfde;
     display: inline-block;
-    font-family: var(--font-secondary);
+    font-family: "Montserrat",sans-serif;
     font-size: 13px;
-    font-weight: var(--s-regular);
+    font-weight: 400;
     position: relative;
     text-transform: uppercase;
-    transition: 0.3s;
-    transition: var(--transition);
+    transition: 0.4s;
 }
+
+.nav a:hover {
+    color: #fff;
+    opacity: 1;
+}
+

@@ -1,9 +1,11 @@
 .header {
     height: 90px;
-    /* background: rgb(220, 251, 255); */
+    width: 100%;
+    background-color: rgba(14,13,13,.7);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    
+    position: fixed;
+    z-index: 2;
 }
