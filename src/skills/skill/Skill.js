@@ -13,7 +13,6 @@ function Skill(props) {
                 {props.description}
             </span>
         </div>
-
     );
 }
 

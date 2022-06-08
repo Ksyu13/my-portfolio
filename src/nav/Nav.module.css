@@ -18,8 +18,8 @@
     font-family: "Montserrat",sans-serif;
     font-size: 13px;
     font-weight: 400;
-    position: relative;
     text-transform: uppercase;
+    position: relative;
     transition: 0.4s;
 }
 

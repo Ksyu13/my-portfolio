@@ -5,6 +5,7 @@ import Work from './work/Work';
 import Title from '../common/components/title/Title';
 import todoList from '../assets/images/todo.jpg';
 import games from '../assets/images/games.jpg';
+import Fade from 'react-reveal/Fade';
 
 
 function Works() {
@@ -17,14 +18,18 @@ function Works() {
     };
 
     return (
-        <div className={style.worksBlock}>
+        <div id="works" className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text={"My Projects"}/>
-                <p>Check out my latest web software development portfolio projects.</p>
-                <div className={style.works}>
-                    <Work style={todoImage} title={"To Do List"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis reiciendis dicta iusto explicabo "} path={"http://ksyu13.github.io/to-do-list/"}/> 
-                    <Work style={gamesImage} title={"Games"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}/>
+                <Title text={"My Projects"} />
+                <Fade left big cascade>
+                    <p>Check out my latest web software development portfolio projects.</p>
+                </Fade>
+                <Fade left big>
+                    <div className={style.works}>
+                        <Work style={todoImage} title={"To Do List"} description={"This is a simple pure JS todulist using localStorage to store data."} path={"http://ksyu13.github.io/to-do-list/"} />
+                        <Work style={gamesImage} title={"Games"} description={"Website for computer games."} />
                     </div>
+                </Fade>
             </div>
         </div>
     );

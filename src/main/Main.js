@@ -5,18 +5,18 @@ import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div id="main" className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.mainContainer}`}>
                 <div className={style.text}>
                     <span className={style.subtitle}>Hi There</span>
                     <h1 className={style.titleTexts}>I'm                        <span className={style.nameText}> Kseniya Bliznyuk</span>
                         <br />
                         <ReactTypingEffect className={style.animatedTexts}
-                            text={["<Frontend Developer/>"]} 
+                            text={["<Frontend Developer/>"]}
                             speed={200}
-                            eraseSpeed={20}                            
+                            eraseSpeed={20}
                         />
-                        </h1>
+                    </h1>
                 </div>
                 <div className={style.photo}></div>
             </div>

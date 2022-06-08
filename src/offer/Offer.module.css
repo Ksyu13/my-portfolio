@@ -1,6 +1,5 @@
 .offerBlock {
     height: auto;
-    /* background-color: rgb(209, 255, 140); */
 }
 
 .offerContainer {
@@ -9,16 +8,11 @@
     flex-direction: column;
 }
 
-.title {
-    background-color: rgb(252, 232, 232);
-}
-
 .offerButton {
     color: #fff;
     background: #101010;
     border: 3px solid #fff;
     box-shadow: 0 10px 15px 0 rgb(249 0 77 / 10%);
-    opacity: 0.8;
     text-decoration: none;
     padding: 10px 20px;
     margin-top: 30px;
