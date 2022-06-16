@@ -1,0 +1,42 @@
+.nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    transition: 0.4s;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+}
+
+.nav .active{
+    color: #fff;
+}
+
+.nav:hover a{
+    opacity: 0.5;
+}
+
+.nav a {
+    margin: 0.5rem 1rem;
+    color: #c4cfde;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+@media screen and (max-width: 450px){
+    .nav{
+        display: none;
+    }
+}

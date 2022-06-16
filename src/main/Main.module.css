@@ -1,20 +1,35 @@
 .mainBlock {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/public/main-bg.c3255fc4.jpg) ;
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    position: relative;
 }
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    position: absolute;
+}
+
 .mainContainer::after{
     background: none
-
 }
+
 .text {
-    width: 700px;
+    width: 600px;
     font-family: "Montserrat", sans-serif;
+}
+
+.text p{
+    text-align: left;
+    color: #c4cfde;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: .9;
+    /* padding-right: 16%; */
 }
 
 .subtitle {
@@ -32,7 +47,6 @@
     font-size: 60px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 22px;
     word-break: break-word;
     display: inline-block;
 }
@@ -40,20 +54,64 @@
 .nameText {
     color: #ff014f;
     display: inline-block;
-    margin-bottom: 22px;
 }
+
 .animatedTexts {
     font-size: 28px;
     color: #c4cfde;
     display: block;
     font-weight: 500;
     letter-spacing: 3px;
-    margin-bottom: 20px;
 }
 
 .photo {
     width: 300px;
     height: 400px;
+    margin: 20px;
     background-color: rgb(218, 218, 218);
-    display: none;
+    background: url(/src/assets/images/in\ color.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e; */
+    border: 1px solid #ff014f;
+    box-shadow: 0 0 35px 0 #ff014f;
 }
+
+@media screen and (max-width: 425px) {
+    .photo {
+        order: 1;
+        padding: 0;
+        margin: 14px 0 30px 0;
+        width: 100%;
+    }
+
+    .mainContainer{
+        justify-content: center;
+        /* padding: 0 */
+    }
+    .titleTexts{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .animatedTexts {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    p{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .photo {
+        order: 1;
+        margin-bottom: 30px;
+    }
+    .text {
+        order: 2
+    }
+    .mainContainer{
+        justify-content: center
+    }
+} ;

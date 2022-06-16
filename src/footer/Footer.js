@@ -29,7 +29,7 @@ function Footer() {
                         </div>
                     </div>
                     <span className={style.copyright}>
-                        © 2022. All rights reserved by Kseniya Bliznyuk
+                        © Ryazan 2022. All rights reserved by Kseniya Bliznyuk
                     </span>
                 </Fade>
             </div>
