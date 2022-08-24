@@ -25,4 +25,11 @@
     text-align: left;
 }
 
+.parallaxEffect {
+    transform-style: preserve-3d;
+}
+.innerElement {
+    transform: translateZ(50px);
+    
+}
 

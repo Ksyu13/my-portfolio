@@ -3,6 +3,9 @@ import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css';
 import ReactTypingEffect from 'react-typing-effect';
 import videoBg from '../assets/video/production ID_4496268.mp4';
+import Tilt from 'react-parallax-tilt';
+
+
 
 function Main() {
     return (
@@ -23,9 +26,11 @@ function Main() {
                         I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
                     </p>
                 </div>
-                <div className={style.photo}></div>
+                <Tilt perspective={2000} scale={1.1}>
+                    <div className={style.photo}></div>
+                </Tilt>
             </div>
-        </div>
+        </div >
     );
 }
 

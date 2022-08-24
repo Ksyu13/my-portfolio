@@ -26,8 +26,8 @@ function Works() {
                 </Fade>
                 <Fade left big>
                     <div className={style.works}>
-                        <Work style={todoImage} title={"To Do List"} description={"This is a simple pure JS todulist using localStorage to store data."} path={"http://ksyu13.github.io/to-do-list/"} />
-                        <Work style={gamesImage} title={"Games"} description={"Website for computer games."} />
+                        <Work style={todoImage} title={"To Do List"} description={"This is a simple pure JS todulist using localStorage to store data."} path={"https://ksyu13.github.io/To-Do-List/"} pathGit={"https://github.com/Ksyu13/To-Do-List/"} />
+                        <Work style={gamesImage} title={"Games"} description={"Website for computer games."} path={"https://github.com/Ksyu13/laravel-games"} pathGit={"https://github.com/Ksyu13/laravel-games"} />
                     </div>
                 </Fade>
             </div>
